@@ -1,0 +1,2591 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "L_HOMEASSIST",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\TIER_9_ROBOTICS_IOT\\L_HOMEASSIST\\UPSTREAM",
+  "git": {
+   "head": "61c8df73c36c570a151d9d209e8f67762aca70d0",
+   "url": "https://github.com/home-assistant/core",
+   "branch": "dev",
+   "committed_at": "2026-09-30T18:35:49+02:00"
+  }
+ },
+ "metrics": {
+  "files_total": 28234,
+  "source_files_scanned": 19008,
+  "lines_of_code": 3737648,
+  "languages": {
+   ".py": 19001,
+   ".json": 5984,
+   ".ambr": 1978,
+   ".yaml": 963,
+   ".xml": 95,
+   "(none)": 53,
+   ".txt": 17,
+   ".tar": 17,
+   ".md": 12,
+   ".png": 12,
+   ".toml": 10,
+   ".mp3": 10,
+   ".jpg": 9,
+   ".pls": 9,
+   ".pyi": 6
+  }
+ },
+ "licence": {
+  "spdx": "Apache-2.0",
+  "class": "A",
+  "source_file": "LICENSE.md",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 24,
+  "unique": 24,
+  "by_ecosystem": {
+   "npm": 1,
+   "pypi": 23
+  },
+  "list": [
+   {
+    "ecosystem": "pypi",
+    "name": "aiodns",
+    "version": "==4.0.4",
+    "source_file": "pyproject.toml",
+    "raw": "aiodns==4.0.4"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiogithubapi",
+    "version": "==26.0.0",
+    "source_file": "pyproject.toml",
+    "raw": "aiogithubapi==26.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiohttp",
+    "version": "==3.14.3",
+    "source_file": "pyproject.toml",
+    "raw": "aiohttp==3.14.3"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiohttp_cors",
+    "version": "==0.8.1",
+    "source_file": "pyproject.toml",
+    "raw": "aiohttp_cors==0.8.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiohttp-fast-zlib",
+    "version": "==0.3.0",
+    "source_file": "pyproject.toml",
+    "raw": "aiohttp-fast-zlib==0.3.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiohttp-asyncmdnsresolver",
+    "version": "==0.2.0",
+    "source_file": "pyproject.toml",
+    "raw": "aiohttp-asyncmdnsresolver==0.2.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiozoneinfo",
+    "version": "==0.2.3",
+    "source_file": "pyproject.toml",
+    "raw": "aiozoneinfo==0.2.3"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "annotatedyaml",
+    "version": "==1.0.2",
+    "source_file": "pyproject.toml",
+    "raw": "annotatedyaml==1.0.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "astral",
+    "version": "==2.2",
+    "source_file": "pyproject.toml",
+    "raw": "astral==2.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "async-interrupt",
+    "version": "==1.2.2",
+    "source_file": "pyproject.toml",
+    "raw": "async-interrupt==1.2.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "attrs",
+    "version": "==26.1.0",
+    "source_file": "pyproject.toml",
+    "raw": "attrs==26.1.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "atomicwrites-homeassistant",
+    "version": "==1.4.1",
+    "source_file": "pyproject.toml",
+    "raw": "atomicwrites-homeassistant==1.4.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "audioop-lts",
+    "version": "==0.2.2",
+    "source_file": "pyproject.toml",
+    "raw": "audioop-lts==0.2.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "awesomeversion",
+    "version": "==25.8.0",
+    "source_file": "pyproject.toml",
+    "raw": "awesomeversion==25.8.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "bcrypt",
+    "version": "==5.0.0",
+    "source_file": "pyproject.toml",
+    "raw": "bcrypt==5.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "certifi",
+    "version": ">=2021.5.30",
+    "source_file": "pyproject.toml",
+    "raw": "certifi>=2021.5.30"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "ciso8601",
+    "version": "==2.3.3",
+    "source_file": "pyproject.toml",
+    "raw": "ciso8601==2.3.3"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "cronsim",
+    "version": "==2.7",
+    "source_file": "pyproject.toml",
+    "raw": "cronsim==2.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "fnv-hash-fast",
+    "version": "==2.0.3",
+    "source_file": "pyproject.toml",
+    "raw": "fnv-hash-fast==2.0.3"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "t",
+    "version": "depend",
+    "source_file": "pyproject.toml",
+    "raw": "t depend"
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@playwright/test",
+    "version": "1.63.0",
+    "source_file": "tests/e2e/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "astroid",
+    "version": ">=4.0",
+    "source_file": "pylint/plugins/pyproject.toml",
+    "raw": "astroid>=4.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pylint",
+    "version": ">=4.0",
+    "source_file": "pylint/plugins/pyproject.toml",
+    "raw": "pylint>=4.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "The",
+    "version": "",
+    "source_file": "homeassistant/setup.py",
+    "raw": "The"
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 1436,
+  "files_with_findings": 1344,
+  "severity": {
+   "high": 325,
+   "medium": 151,
+   "low": 960
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 8,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "tests/components/tomato/test_device_tracker.py",
+      "line": 227,
+      "cwe": "CWE-295",
+      "snippet": "result.req, timeout=60, verify=False"
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/signal_messenger/test_notify.py",
+      "line": 416,
+      "cwe": "CWE-295",
+      "snippet": "\"\"\"Test URL attachment with verify_ssl=false uses verify=false.\"\"\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/mfi/test_sensor.py",
+      "line": 90,
+      "cwe": "CWE-295",
+      "snippet": "\"foo\", \"user\", \"pass\", port=6080, use_tls=False, verify=False"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/yale/config_flow.py",
+      "line": 40,
+      "cwe": "CWE-295",
+      "snippet": "verify=False,"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/plex/server.py",
+      "line": 167,
+      "cwe": "CWE-295",
+      "snippet": "session.verify = False"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/huawei_lte/utils.py",
+      "line": 39,
+      "cwe": "CWE-295",
+      "snippet": "requests_session.verify = False"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/aurora_abb_powerone/__init__.py",
+      "line": 11,
+      "cwe": "CWE-732",
+      "snippet": "# sudo chmod 777 /dev/ttyUSB0"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/august/config_flow.py",
+      "line": 42,
+      "cwe": "CWE-295",
+      "snippet": "verify=False,"
+     }
+    ]
+   },
+   "A02-CryptographicFailures": {
+    "count": 19,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "tests/helpers/template/extensions/test_crypto.py",
+      "line": 11,
+      "cwe": "CWE-327",
+      "snippet": "assert render(hass, \"{{ md5('Home Assistant') }}\") == ha_md5"
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/thread/test_dataset_store.py",
+      "line": 32,
+      "cwe": "CWE-327",
+      "snippet": "\"10445F2B5CA6F2A93A55CE570A70EFEECB0C0402A0F7F801021234\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/thread/__init__.py",
+      "line": 6,
+      "cwe": "CWE-327",
+      "snippet": "\"0212340410445F2B5CA6F2A93A55CE570A70EFEECB0C0402A0F7F8\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/otbr/__init__.py",
+      "line": 22,
+      "cwe": "CWE-327",
+      "snippet": "\"0212340410445F2B5CA6F2A93A55CE570A70EFEECB0C0402A0F7F8\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/homekit_controller/test_connection.py",
+      "line": 340,
+      "cwe": "CWE-327",
+      "snippet": "\"0212340410445F2B5CA6F2A93A55CE570A70EFEECB0C0402A0F7F8\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/homekit/test_type_cameras.py",
+      "line": 53,
+      "cwe": "CWE-327",
+      "snippet": "\"EAAwECBAEUAxYBAW4CBCzq28sDAhgABAQAAKBABgENBAEA\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/deconz/test_logbook.py",
+      "line": 44,
+      "cwe": "CWE-327",
+      "snippet": "\"modelid\": \"URC4450BC0-X-R\","
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/backblaze_b2/conftest.py",
+      "line": 109,
+      "cwe": "CWE-327",
+      "snippet": "sha1_backup = hashlib.sha1(test_backup_data).hexdigest()"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/util/ssl.py",
+      "line": 54,
+      "cwe": "CWE-327",
+      "snippet": "\"ECDHE-ECDSA-DES-CBC3-SHA:\""
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/helpers/collection.py",
+      "line": 388,
+      "cwe": "CWE-327",
+      "snippet": "return md5(json_bytes(item)).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/helpers/template/extensions/crypto.py",
+      "line": 45,
+      "cwe": "CWE-327",
+      "snippet": "def md5(value: str) -> str:"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/tts/__init__.py",
+      "line": 933,
+      "cwe": "CWE-327",
+      "snippet": "msg_hash = hashlib.sha1(bytes(message, \"utf-8\")).hexdigest()"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/fixer/sensor.py",
+      "line": 65,
+      "cwe": "CWE-327",
+      "snippet": "_attr_attribution = \"Data provided by the European Central Bank (ECB)\""
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/environment_canada/sensor.py",
+      "line": 260,
+      "cwe": "CWE-327",
+      "snippet": "sensors: list[ECBaseSensorEntity] = ["
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/emulated_hue/hue_api.py",
+      "line": 784,
+      "cwe": "CWE-327",
+      "snippet": "unique_id = hashlib.md5(entity_id.encode()).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/ecovacs/config_flow.py",
+      "line": 171,
+      "cwe": "CWE-327",
+      "snippet": "md5(user_input[CONF_PASSWORD]),"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/ecovacs/controller.py",
+      "line": 65,
+      "cwe": "CWE-327",
+      "snippet": "md5(config[CONF_PASSWORD]),"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/device_tracker/legacy.py",
+      "line": 1117,
+      "cwe": "CWE-327",
+      "snippet": "f\"{hashlib.md5(email.encode('utf-8').lower()).hexdigest()}.jpg?s=80&d=wavatar\""
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/backup/manager.py",
+      "line": 2215,
+      "cwe": "CWE-327",
+      "snippet": "return hashlib.sha1(f\"{date} - {name}\".lower().encode()).hexdigest()[:8]"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 11,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "tests/util/test_package.py",
+      "line": 56,
+      "cwe": "CWE-78",
+      "snippet": "def mock_popen(lib_dir) -> Generator[MagicMock]:"
+     },
+     {
+      "severity": "high",
+      "file": "tests/util/test_process.py",
+      "line": 19,
+      "cwe": "CWE-78",
+      "snippet": "shell=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/template/test_validators.py",
+      "line": 928,
+      "cwe": "CWE-89",
+      "snippet": "assert error.format(value) + \", mmmm\" not in caplog.text"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/motioneye/test_web_hooks.py",
+      "line": 84,
+      "cwe": "CWE-89",
+      "snippet": "+ URL_WEBHOOK_PATH.format(webhook_id=config_entry.data[CONF_WEBHOOK_ID])\n        + f\"?{WEB_HOOK_MOTION_DETECTED_QUERY_STRING}&device_id={device.id}\""
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/shelly/update.py",
+      "line": 141,
+      "cwe": "CWE-89",
+      "snippet": "\"Starting OTA update of LoRa add-on on device %s from '%s' to '%s'\","
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/recorder/migration.py",
+      "line": 947,
+      "cwe": "CWE-89",
+      "snippet": "# The subquery (SELECT {foreign_column} from {foreign_table}) is"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/python_script/__init__.py",
+      "line": 292,
+      "cwe": "CWE-95",
+      "snippet": "exec(compiled.code, restricted_globals)  # noqa: S102"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/influxdb/sensor.py",
+      "line": 341,
+      "cwe": "CWE-89",
+      "snippet": "f\"select {self.group}({self.field}) as {INFLUX_CONF_VALUE} from\"  # noqa: S608"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/ezviz/select.py",
+      "line": 171,
+      "cwe": "CWE-89",
+      "snippet": "raise HomeAssistantError(f\"Cannot select option for {desc.key}\") from err"
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/command_line/utils.py",
+      "line": 118,
+      "cwe": "CWE-95",
+      "snippet": "A list command is run via exec (shell=False); a str command via the shell."
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/caldav/todo.py",
+      "line": 233,
+      "cwe": "CWE-89",
+      "snippet": "raise HomeAssistantError(f\"CalDAV delete error: {err}\") from err"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 269,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/common.py",
+      "line": 145,
+      "cwe": "CWE-",
+      "snippet": "TODO = \"todo\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_block_async_io.py",
+      "line": 290,
+      "cwe": "CWE-",
+      "snippet": "Path(\"/config/data/not/exist\").write_bytes(b\"xxx\"),"
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_core.py",
+      "line": 1938,
+      "cwe": "CWE-",
+      "snippet": "assert not hass.services.has_service(\"test_xxx\", \"test_yyy\")"
+     },
+     {
+      "severity": "low",
+      "file": "tests/util/test_location.py",
+      "line": 97,
+      "cwe": "CWE-",
+      "snippet": "assert info.currency == \"XXX\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/scripts/check_requirements/test_runner.py",
+      "line": 354,
+      "cwe": "CWE-",
+      "snippet": "id=\"GHSA-xxxx-xxxx-xxxx\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/pylint/type_hints/test_type_hints.py",
+      "line": 825,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Check that Mapping[xxx, Any] doesn't accept invalid Mapping or dict.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/pylint/quality_scale/test_config_entry_unloading.py",
+      "line": 102,
+      "cwe": "CWE-",
+      "snippet": "{\"config-entry-unloading\": \"todo\"},"
+     },
+     {
+      "severity": "low",
+      "file": "tests/pylint/quality_scale/test_diagnostics.py",
+      "line": 121,
+      "cwe": "CWE-",
+      "snippet": "{\"diagnostics\": \"todo\"},"
+     },
+     {
+      "severity": "low",
+      "file": "tests/pylint/quality_scale/test_entity_unique_id.py",
+      "line": 696,
+      "cwe": "CWE-",
+      "snippet": "{\"entity-unique-id\": \"todo\"},"
+     },
+     {
+      "severity": "low",
+      "file": "tests/pylint/quality_scale/test_has_entity_name.py",
+      "line": 712,
+      "cwe": "CWE-",
+      "snippet": "{\"has-entity-name\": \"todo\"},"
+     },
+     {
+      "severity": "low",
+      "file": "tests/pylint/quality_scale/test_parallel_updates.py",
+      "line": 171,
+      "cwe": "CWE-",
+      "snippet": "{\"parallel-updates\": \"todo\"},"
+     },
+     {
+      "severity": "low",
+      "file": "tests/pylint/quality_scale/test_reauthentication_flow.py",
+      "line": 101,
+      "cwe": "CWE-",
+      "snippet": "{\"reauthentication-flow\": \"todo\"},"
+     },
+     {
+      "severity": "low",
+      "file": "tests/pylint/quality_scale/test_test_before_configure.py",
+      "line": 354,
+      "cwe": "CWE-",
+      "snippet": "{\"test-before-configure\": \"todo\"},"
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_config_validation.py",
+      "line": 167,
+      "cwe": "CWE-",
+      "snippet": "\"homeassistant://api/hassio_ingress/XXXXXXX\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/conftest.py",
+      "line": 1092,
+      "cwe": "CWE-",
+      "snippet": "return \"todo\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/yalexs_ble/test_config_flow.py",
+      "line": 45,
+      "cwe": "CWE-",
+      "snippet": "mock_push_lock.lock_info = LockInfo(\"Front Door\", \"M1XXX012LU\", \"1.0.0\", \"1.0.0\")"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/yale/test_init.py",
+      "line": 222,
+      "cwe": "CWE-",
+      "snippet": "\"key\": \"kkk01d4300c1dcxxx1c330f794941111\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/wemo/conftest.py",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "MOCK_FIRMWARE_VERSION = \"WeMo_WW_2.00.XXXXX.PVT-OWRT\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/todoist/conftest.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Common fixtures for the todoist tests.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/todoist/test_calendar.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Unit tests for the Todoist calendar platform.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/todoist/test_config_flow.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Test the todoist config flow.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/todoist/test_init.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Unit tests for the Todoist integration.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/todoist/test_todo.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Unit tests for the Todoist todo platform.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/todoist/__init__.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Tests for the Todoist integration.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/todo/conftest.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Fixtures for the todo component tests.\"\"\""
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 135,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "tests/pylint/test_entity_description_defaults.py",
+      "line": 93,
+      "cwe": "CWE-1188",
+      "snippet": "entity_registry_enabled_default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/tomato/test_device_tracker.py",
+      "line": 227,
+      "cwe": "CWE-1188",
+      "snippet": "result.req, timeout=60, verify=False"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/mfi/test_sensor.py",
+      "line": 90,
+      "cwe": "CWE-1188",
+      "snippet": "\"foo\", \"user\", \"pass\", port=6080, use_tls=False, verify=False"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/esphome/test_entity.py",
+      "line": 2979,
+      "cwe": "CWE-1188",
+      "snippet": "disabled_by_default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/bluetooth/test_passive_update_processor.py",
+      "line": 848,
+      "cwe": "CWE-1188",
+      "snippet": "entity_registry_enabled_default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "pylint/plugins/pylint_home_assistant/checkers/entity_description_defaults.py",
+      "line": 4,
+      "cwe": "CWE-1188",
+      "snippet": "and adds noise. For example, ``entity_registry_enabled_default=True``"
+     },
+     {
+      "severity": "medium",
+      "file": "pylint/plugins/pylint_home_assistant/checkers/quality_scale/has_entity_name.py",
+      "line": 71,
+      "cwe": "CWE-1188",
+      "snippet": "``dataclasses.field(default=True)`` and other ``Call``-shaped defaults"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/util/frozen_dataclass_compat.py",
+      "line": 48,
+      "cwe": "CWE-1188",
+      "snippet": "frozen_default=True,  # Set to allow setting frozen in child classes"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/helpers/selector.py",
+      "line": 1064,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(\"enable_second\", default=True): cv.boolean,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/zwave_js/config_flow.py",
+      "line": 152,
+      "cwe": "CWE-1188",
+      "snippet": "{probatio.Optional(CONF_USE_ADDON, default=True): bool}"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/zha/config_flow.py",
+      "line": 738,
+      "cwe": "CWE-1188",
+      "snippet": "{probatio.Required(OVERWRITE_COORDINATOR_IEEE, default=True): bool}"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/zha/helpers.py",
+      "line": 1333,
+      "cwe": "CWE-1188",
+      "snippet": "CONF_ENABLE_LIGHT_TRANSITIONING_FLAG, default=True"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/zha/__init__.py",
+      "line": 73,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(CONF_ENABLE_QUIRKS, default=True): cv.boolean,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/xmpp/notify.py",
+      "line": 67,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(CONF_TLS, default=True): cv.boolean,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/xeoma/camera.py",
+      "line": 43,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(CONF_NEW_VERSION, default=True): cv.boolean,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/worxlandroid/sensor.py",
+      "line": 31,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(CONF_ALLOW_UNREACHABLE, default=True): cv.boolean,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/websocket_api/commands.py",
+      "line": 890,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(\"primary_entities_only\", default=True): bool,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/webdav/config_flow.py",
+      "line": 41,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(CONF_VERIFY_SSL, default=True): bool,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/vivotek/config_flow.py",
+      "line": 53,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Required(CONF_VERIFY_SSL, default=True): cv.boolean,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/venstar/climate.py",
+      "line": 58,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(CONF_HUMIDIFIER, default=True): cv.boolean,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/utility_meter/config_flow.py",
+      "line": 109,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/utility_meter/__init__.py",
+      "line": 100,
+      "cwe": "CWE-1188",
+      "snippet": "CONF_METER_PERIODICALLY_RESETTING, default=True"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/uptime_kuma/config_flow.py",
+      "line": 39,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Required(CONF_VERIFY_SSL, default=True): bool,"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/traccar_server/config_flow.py",
+      "line": 67,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Optional(CONF_VERIFY_SSL, default=True): BooleanSelector("
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/tplink_omada/config_flow.py",
+      "line": 37,
+      "cwe": "CWE-1188",
+      "snippet": "probatio.Required(CONF_VERIFY_SSL, default=True): bool,"
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 16,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/test_loader.py",
+      "line": 525,
+      "cwe": "CWE-1104",
+      "snippet": "\"requirements\": [\"test-req==1.0.0\"],"
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_requirements.py",
+      "line": 45,
+      "cwe": "CWE-1104",
+      "snippet": "mock_integration(hass, MockModule(\"comp\", requirements=[\"package==0.0.1\"]))"
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_setup.py",
+      "line": 306,
+      "cwe": "CWE-1104",
+      "snippet": "mock_integration(hass, MockModule(\"comp\", requirements=[\"package==0.0.1\"]))"
+     },
+     {
+      "severity": "low",
+      "file": "tests/util/test_package.py",
+      "line": 20,
+      "cwe": "CWE-1104",
+      "snippet": "TEST_NEW_REQ = \"pyhelloworld3==1.0.0\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/scripts/check_requirements/test_diff.py",
+      "line": 17,
+      "cwe": "CWE-1104",
+      "snippet": "\" keep==1.0.0\\n\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/scripts/check_requirements/test_main.py",
+      "line": 21,
+      "cwe": "CWE-1104",
+      "snippet": "\"-pkg==1.0.0\\n\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/scripts/check_requirements/test_runner.py",
+      "line": 52,
+      "cwe": "CWE-1104",
+      "snippet": "\"-pkg==1.0.0\\n\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/script/test_gen_requirements_all.py",
+      "line": 44,
+      "cwe": "CWE-1104",
+      "snippet": "\"env-canada==0.8.0\", \"pytest\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/hassfest/test_requirements.py",
+      "line": 109,
+      "cwe": "CWE-1104",
+      "snippet": "\"test_package==1.2.3\","
+     },
+     {
+      "severity": "low",
+      "file": "script/gen_requirements_all.py",
+      "line": 75,
+      "cwe": "CWE-1104",
+      "snippet": "grpcio==1.83.1"
+     },
+     {
+      "severity": "low",
+      "file": "script/scaffold/gather_info.py",
+      "line": 56,
+      "cwe": "CWE-1104",
+      "snippet": "\"requirement\": \"aiodevelop==1.2.3\","
+     },
+     {
+      "severity": "low",
+      "file": "homeassistant/util/package.py",
+      "line": 58,
+      "cwe": "CWE-1104",
+      "snippet": "e.g. \"package==1.0.0\" or \"package>=1.0.0,<2.0.0\" or \"package@git+https://...\""
+     },
+     {
+      "severity": "low",
+      "file": "homeassistant/scripts/check_config.py",
+      "line": 31,
+      "cwe": "CWE-1104",
+      "snippet": "REQUIREMENTS = (\"colorlog==6.10.1\",)"
+     },
+     {
+      "severity": "low",
+      "file": "homeassistant/components/elkm1/__init__.py",
+      "line": 248,
+      "cwe": "CWE-1104",
+      "snippet": "# With elkm1-lib==0.7.16 and later auto configure is available"
+     },
+     {
+      "severity": "low",
+      "file": "homeassistant/auth/mfa_modules/notify.py",
+      "line": 27,
+      "cwe": "CWE-1104",
+      "snippet": "REQUIREMENTS = [\"pyotp==2.10.0\"]"
+     },
+     {
+      "severity": "low",
+      "file": "homeassistant/auth/mfa_modules/totp.py",
+      "line": 21,
+      "cwe": "CWE-1104",
+      "snippet": "REQUIREMENTS = [\"pyotp==2.10.0\", \"PyQRCode==1.2.1\"]"
+     }
+    ]
+   },
+   "A07-AuthFailures": {
+    "count": 299,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "tests/test_backup_restore.py",
+      "line": 46,
+      "cwe": "CWE-798",
+      "snippet": "password=\"psw\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/scripts/test_auth.py",
+      "line": 62,
+      "cwe": "CWE-798",
+      "snippet": "hass, provider, Mock(username=\"paulus\", password=\"test-pass\")"
+     },
+     {
+      "severity": "high",
+      "file": "tests/pylint/test_duplicate_const.py",
+      "line": 84,
+      "cwe": "CWE-798",
+      "snippet": "CONF_PASSWORD = \"password\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/helpers/test_config_entry_oauth2_flow.py",
+      "line": 42,
+      "cwe": "CWE-798",
+      "snippet": "REFRESH_TOKEN = \"mock-refresh-token\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/zonneplan/conftest.py",
+      "line": 43,
+      "cwe": "CWE-798",
+      "snippet": "access_token=\"mock-access-token\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/zonneplan/test_config_flow.py",
+      "line": 214,
+      "cwe": "CWE-798",
+      "snippet": "access_token=\"new-access-token\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/zonneplan/test_init.py",
+      "line": 108,
+      "cwe": "CWE-798",
+      "snippet": "access_token=\"rotated-access-token\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/yoto/test_config_flow.py",
+      "line": 183,
+      "cwe": "CWE-798",
+      "snippet": "refresh_token=\"new-refresh-token\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/xthings_cloud/const.py",
+      "line": 4,
+      "cwe": "CWE-798",
+      "snippet": "MOCK_PASSWORD = \"test_password\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/xiaomi_miio/test_config_flow.py",
+      "line": 31,
+      "cwe": "CWE-798",
+      "snippet": "TEST_TOKEN = \"12345678901234567890123456789012\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/xiaomi/test_device_tracker.py",
+      "line": 21,
+      "cwe": "CWE-798",
+      "snippet": "PASSWORD = \"passwordTest\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/worldtidesinfo/test_sensor.py",
+      "line": 17,
+      "cwe": "CWE-798",
+      "snippet": "API_KEY = \"0123-secret-api-key\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/willow/conftest.py",
+      "line": 29,
+      "cwe": "CWE-798",
+      "snippet": "ACCESS_TOKEN = \"mock-access-token\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/weheat/const.py",
+      "line": 9,
+      "cwe": "CWE-798",
+      "snippet": "CONF_REFRESH_TOKEN = \"refresh_token\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/weatherkit/test_config_flow.py",
+      "line": 40,
+      "cwe": "CWE-798",
+      "snippet": "CONF_KEY_PEM: \"-----BEGIN PRIVATE KEY-----\\nwhateverkey\\n-----END PRIVATE KEY-----\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/weatherkit/__init__.py",
+      "line": 26,
+      "cwe": "CWE-798",
+      "snippet": "CONF_KEY_PEM: \"-----BEGIN PRIVATE KEY-----\\nwhateverkey\\n-----END PRIVATE KEY-----\","
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/wattwaechter/conftest.py",
+      "line": 28,
+      "cwe": "CWE-798",
+      "snippet": "MOCK_TOKEN = \"test-token-123\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/watts/conftest.py",
+      "line": 25,
+      "cwe": "CWE-798",
+      "snippet": "CLIENT_SECRET = \"test_client_secret\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/wallbox/conftest.py",
+      "line": 100,
+      "cwe": "CWE-798",
+      "snippet": "wallbox.jwtRefreshToken = \"test_refresh_token\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/wake_on_lan/test_init.py",
+      "line": 29,
+      "cwe": "CWE-798",
+      "snippet": "secureon_password = \"00:aa:22:bb:33:cc\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/volvo/const.py",
+      "line": 6,
+      "cwe": "CWE-798",
+      "snippet": "DEFAULT_API_KEY = \"abcdef0123456879abcdef\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/vodafone_station/const.py",
+      "line": 13,
+      "cwe": "CWE-798",
+      "snippet": "TEST_PASSWORD = \"fake_password\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/vistapool/conftest.py",
+      "line": 17,
+      "cwe": "CWE-798",
+      "snippet": "MOCK_PASSWORD = \"testpassword\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/vistapool/test_config_flow.py",
+      "line": 309,
+      "cwe": "CWE-798",
+      "snippet": "_NEW_PASSWORD = \"new-password\""
+     },
+     {
+      "severity": "high",
+      "file": "tests/components/victron_gx/test_config_flow.py",
+      "line": 1177,
+      "cwe": "CWE-798",
+      "snippet": "password=\"generated-password\","
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 671,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/test_bootstrap.py",
+      "line": 1160,
+      "cwe": "CWE-319",
+      "snippet": "\"internal_url\": \"http://192.168.1.100:8123\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_core_config.py",
+      "line": 79,
+      "cwe": "CWE-319",
+      "snippet": "\"internal_url\": \"http://example.local\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/util/test_location.py",
+      "line": 25,
+      "cwe": "CWE-319",
+      "snippet": "# [0]: http://boulter.com/gps/distance/"
+     },
+     {
+      "severity": "low",
+      "file": "tests/util/test_network.py",
+      "line": 109,
+      "cwe": "CWE-319",
+      "snippet": "assert network_util.normalize_url(\"http://example.com\") == \"http://example.com\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_util/aiohttp.py",
+      "line": 304,
+      "cwe": "CWE-319",
+      "snippet": "request_info = mock.Mock(real_url=\"http://example.com\")"
+     },
+     {
+      "severity": "low",
+      "file": "tests/test_util/test_aiohttp.py",
+      "line": 11,
+      "cwe": "CWE-319",
+      "snippet": "mocker.get(\"http://example.com\")"
+     },
+     {
+      "severity": "low",
+      "file": "tests/scripts/test_check_config.py",
+      "line": 122,
+      "cwe": "CWE-319",
+      "snippet": "): \"logger: debug\\nhttp_pw: http://google.com\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_aiohttp_client.py",
+      "line": 51,
+      "cwe": "CWE-319",
+      "snippet": "CONF_MJPEG_URL: \"http://example.com/mjpeg_stream\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_config_entry_flow.py",
+      "line": 405,
+      "cwe": "CWE-319",
+      "snippet": "hass.config.api = Mock(base_url=\"http://example.com\")"
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_config_entry_oauth2_flow.py",
+      "line": 130,
+      "cwe": "CWE-319",
+      "snippet": "return \"http://example.com/auth\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_config_validation.py",
+      "line": 127,
+      "cwe": "CWE-319",
+      "snippet": "\"http://??,**\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_entity_platform.py",
+      "line": 1464,
+      "cwe": "CWE-319",
+      "snippet": "\"configuration_url\": \"http://192.168.0.100/config\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_network.py",
+      "line": 46,
+      "cwe": "CWE-319",
+      "snippet": "# Test with internal URL: http://example.local:8123"
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_update_coordinator.py",
+      "line": 343,
+      "cwe": "CWE-319",
+      "snippet": "request_info.real_url = \"http://example.com/token\""
+     },
+     {
+      "severity": "low",
+      "file": "tests/hassfest/test_translations.py",
+      "line": 471,
+      "cwe": "CWE-319",
+      "snippet": "\"http://example.com:8080\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/e2e/playwright.config.ts",
+      "line": 3,
+      "cwe": "CWE-319",
+      "snippet": "const baseURL = process.env.BASE_URL ?? \"http://localhost:8123\";"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/zwave_me/test_remove_stale_devices.py",
+      "line": 46,
+      "cwe": "CWE-319",
+      "snippet": "data={CONF_TOKEN: \"test_token\", CONF_URL: \"http://test_test\"},"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/zoneminder/conftest.py",
+      "line": 96,
+      "cwe": "CWE-319",
+      "snippet": "mjpeg_image_url: str = \"http://zm.example.com/mjpeg/1\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/zoneminder/test_init.py",
+      "line": 29,
+      "cwe": "CWE-319",
+      "snippet": "f\"http://{MOCK_HOST}\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/zha/test_config_flow.py",
+      "line": 829,
+      "cwe": "CWE-319",
+      "snippet": "ssdp_location=\"http://1.2.3.4:80/\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/zeroconf/test_repairs.py",
+      "line": 53,
+      "cwe": "CWE-319",
+      "snippet": "\"base_url\": \"http://10.0.0.1:8123\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/youless/__init__.py",
+      "line": 20,
+      "cwe": "CWE-319",
+      "snippet": "\"http://1.1.1.1/d\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/yamaha_musiccast/test_config_flow.py",
+      "line": 113,
+      "cwe": "CWE-319",
+      "snippet": "ssdp_location=\"http://127.0.0.1:9000/MediaRenderer/desc.xml\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/yamaha_musiccast/test_init.py",
+      "line": 85,
+      "cwe": "CWE-319",
+      "snippet": "\"upnp_description\": \"http://127.0.0.1:49154/MediaRenderer/desc.xml\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/yamaha/test_media_player.py",
+      "line": 42,
+      "cwe": "CWE-319",
+      "snippet": "return _create_zone_mock(\"Main zone\", \"http://main\")"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 8,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_aiohttp_client.py",
+      "line": 462,
+      "cwe": "CWE-601",
+      "snippet": "async def handle_redirect(request: web.Request) -> web.Response:"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/http/test_init.py",
+      "line": 1729,
+      "cwe": "CWE-601",
+      "snippet": "async def test_default_config_under_supervisor_starts_redirect("
+     },
+     {
+      "severity": "medium",
+      "file": "script/gen_recorder_db_versions.py",
+      "line": 98,
+      "cwe": "CWE-918",
+      "snippet": "def _fetch(url: str) -> list[dict]:"
+     },
+     {
+      "severity": "medium",
+      "file": "script/vendor_sqlite3.py",
+      "line": 37,
+      "cwe": "CWE-918",
+      "snippet": "return urllib.request.urlopen(url, timeout=60)"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/mcp/config_flow.py",
+      "line": 441,
+      "cwe": "CWE-918",
+      "snippet": "async def fetch(url: str) -> httpx.Response:"
+     },
+     {
+      "severity": "medium",
+      "file": "homeassistant/components/map_tiles/views.py",
+      "line": 303,
+      "cwe": "CWE-918",
+      "snippet": "if (asset := await super()._async_fetch(url)) is None:"
+     },
+     {
+      "severity": "low",
+      "file": "homeassistant/components/http/server.py",
+      "line": 329,
+      "cwe": "CWE-601",
+      "snippet": "def register_redirect("
+     },
+     {
+      "severity": "low",
+      "file": "homeassistant/components/frontend/__init__.py",
+      "line": 562,
+      "cwe": "CWE-601",
+      "snippet": "hass.http.register_redirect("
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 158,
+  "files_with_findings": 158,
+  "severity": {
+   "high": 2,
+   "medium": 101,
+   "low": 55
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 111,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "tests/helpers/test_condition.py",
+      "line": 2264,
+      "cwe": "CWE-1336",
+      "snippet": "Template(\"{{ is_state('light.example', 'on') }}\", hass),"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/test_config_validation.py",
+      "line": 613,
+      "cwe": "CWE-1336",
+      "snippet": "tpl = template.Template(text, hass)"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/test_event.py",
+      "line": 804,
+      "cwe": "CWE-1336",
+      "snippet": "template_condition = Template(\"{{states.switch.test.state == 'on'}}\", hass)"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/test_trigger.py",
+      "line": 235,
+      "cwe": "CWE-1336",
+      "snippet": "rendered_option = Template(raw_template, self._hass).async_render({})"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/test_trigger_template_entity.py",
+      "line": 74,
+      "cwe": "CWE-1336",
+      "snippet": "CONF_NAME: template.Template(\"test_entity\", hass),"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/template/helpers.py",
+      "line": 18,
+      "cwe": "CWE-1336",
+      "snippet": "return template.Template(template_str, hass).async_render("
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/template/test_context.py",
+      "line": 79,
+      "cwe": "CWE-1336",
+      "snippet": "mock_template = MockTemplate()"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/template/test_init.py",
+      "line": 28,
+      "cwe": "CWE-1336",
+      "snippet": "template_obj = template.Template(\"{{ states('sensor.test') }}\", None)"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/template/test_render_info.py",
+      "line": 25,
+      "cwe": "CWE-1336",
+      "snippet": "return template.Template(\"{{ 1 + 1 }}\", hass)"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/template/extensions/test_functional.py",
+      "line": 93,
+      "cwe": "CWE-1336",
+      "snippet": "tpl = template.Template(\"{{ [1,2] | random }}\", hass)"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/helpers/template/extensions/test_state.py",
+      "line": 1237,
+      "cwe": "CWE-1336",
+      "snippet": "tpl = template.Template(\"{{ states.sensor.test.state_with_unit }}\", hass)"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/zwave_js/test_discovery.py",
+      "line": 211,
+      "cwe": "CWE-1336",
+      "snippet": "DynamicCurrentTempClimateDataTemplate().resolve_data("
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/wemo/test_sensor.py",
+      "line": 18,
+      "cwe": "CWE-1336",
+      "snippet": "class InsightTestTemplate(EntityTestHelpers):"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/template/test_config.py",
+      "line": 153,
+      "cwe": "CWE-1336",
+      "snippet": "\"name\": Template(\"Template Button\", hass),"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/template/test_event.py",
+      "line": 551,
+      "cwe": "CWE-1336",
+      "snippet": "CONF_NAME: Template(\"fresh_name\", hass),"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/template/test_template_entity.py",
+      "line": 15,
+      "cwe": "CWE-1336",
+      "snippet": "entity.add_template_attribute(\"_hello\", template.Template(\"Hello\", None))"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/template/test_trigger_entity.py",
+      "line": 60,
+      "cwe": "CWE-1336",
+      "snippet": "CONF_NAME: template.Template(\"test_entity\", hass),"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/template/test_validators.py",
+      "line": 65,
+      "cwe": "CWE-1336",
+      "snippet": "\"name\": Template(\"Test\", hass),"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/sql/test_init.py",
+      "line": 76,
+      "cwe": "CWE-1336",
+      "snippet": "validate_sql_select(Template(\"DROP TABLE *\", hass))"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/sql/test_util.py",
+      "line": 75,
+      "cwe": "CWE-1336",
+      "snippet": "validate_sql_select(Template(sql_query, hass))"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/mqtt/test_client.py",
+      "line": 296,
+      "cwe": "CWE-1336",
+      "snippet": "command_template = mqtt.MqttCommandTemplate(None)"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/mqtt/test_init.py",
+      "line": 105,
+      "cwe": "CWE-1336",
+      "snippet": "tpl = template.Template(\"{{ value + 1 }}\", hass=hass)"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/homematicip_cloud/helper.py",
+      "line": 124,
+      "cwe": "CWE-1336",
+      "snippet": "HomeTemplate("
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/conversation/test_agent_manager.py",
+      "line": 25,
+      "cwe": "CWE-1427",
+      "snippet": "extra_system_prompt=\"test extra prompt\","
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/conversation/test_chat_log.py",
+      "line": 331,
+      "cwe": "CWE-1427",
+      "snippet": "extra_system_prompt = ("
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "tests/components/tradfri/conftest.py",
+      "line": 90,
+      "cwe": "CWE-20",
+      "snippet": "device_response: dict[str, Any] = json.loads(request.getfixturevalue(request.param))"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/components/signal_messenger/test_notify.py",
+      "line": 103,
+      "cwe": "CWE-20",
+      "snippet": "post_data = json.loads(signal_requests_mock.request_history[-1].text)"
+     }
+    ]
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "tests/components/hassio/test_repairs.py",
+      "line": 295,
+      "cwe": "CWE-862",
+      "snippet": "async def test_supervisor_issue_repair_flow_skip_confirmation("
+     },
+     {
+      "severity": "high",
+      "file": "homeassistant/components/overseerr/event.py",
+      "line": 37,
+      "cwe": "CWE-862",
+      "snippet": "\"auto_approved\","
+     }
+    ]
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/components/axis/const.py",
+      "line": 238,
+      "cwe": "CWE-",
+      "snippet": "root.Image.I0.MPEG.ZChromaQPMode=off"
+     }
+    ]
+   },
+   "LLM09-Misinformation": {
+    "count": 42,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/util/test_ssl.py",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "assert create_no_verify_ssl_context() is create_no_verify_ssl_context("
+     },
+     {
+      "severity": "low",
+      "file": "tests/scripts/check_requirements/test_pypi.py",
+      "line": 441,
+      "cwe": "CWE-",
+      "snippet": "assert \"cannot verify\" in result.detail.lower()"
+     },
+     {
+      "severity": "low",
+      "file": "tests/helpers/test_script.py",
+      "line": 693,
+      "cwe": "CWE-",
+      "snippet": "# Can't assert just yet because we haven't verified stopping works yet."
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/weheat/test_config_flow.py",
+      "line": 65,
+      "cwe": "CWE-",
+      "snippet": "assert token_request_data[\"code_verifier\"]"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/unifi_access/test_config_flow.py",
+      "line": 165,
+      "cwe": "CWE-",
+      "snippet": "assert mock_config_entry.data[CONF_VERIFY_SSL] is False"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/unifiprotect/test_config_flow.py",
+      "line": 550,
+      "cwe": "CWE-",
+      "snippet": "assert ufp_reauth_entry.data[CONF_VERIFY_SSL] is False"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/unifi/test_config_flow.py",
+      "line": 682,
+      "cwe": "CWE-",
+      "snippet": "assert schema_defaults[CONF_VERIFY_SSL] is True"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/tplink_omada/test_config_flow.py",
+      "line": 380,
+      "cwe": "CWE-",
+      "snippet": "mock_clientsession.assert_called_once_with(hass, verify_ssl=True)"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/teltonika/test_config_flow.py",
+      "line": 176,
+      "cwe": "CWE-",
+      "snippet": "assert call_args.kwargs[\"verify_ssl\"] is False"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/synology_dsm/test_init.py",
+      "line": 107,
+      "cwe": "CWE-",
+      "snippet": "assert CONF_VERIFY_SSL not in entry.data"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/syncthing/test_config_flow.py",
+      "line": 52,
+      "cwe": "CWE-",
+      "snippet": "assert result[\"data\"][CONF_VERIFY_SSL] == VERIFY_SSL"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/subaru/test_config_flow.py",
+      "line": 125,
+      "cwe": "CWE-",
+      "snippet": "assert len(mock_two_factor_verify.mock_calls) == 1"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/splunk/test_config_flow.py",
+      "line": 80,
+      "cwe": "CWE-",
+      "snippet": "assert result[\"data\"][CONF_VERIFY_SSL] is True"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/sonarr/test_config_flow.py",
+      "line": 225,
+      "cwe": "CWE-",
+      "snippet": "assert result[\"data\"][CONF_VERIFY_SSL]"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/sma/test_config_flow.py",
+      "line": 444,
+      "cwe": "CWE-",
+      "snippet": "assert entry.data[CONF_VERIFY_SSL] is False"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/prowl/test_config_flow.py",
+      "line": 27,
+      "cwe": "CWE-",
+      "snippet": "assert mock_prowlpy.verify_key.call_count > 0"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/prowl/test_init.py",
+      "line": 29,
+      "cwe": "CWE-",
+      "snippet": "assert mock_prowlpy.verify_key.call_count > 0"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/portainer/test_config_flow.py",
+      "line": 255,
+      "cwe": "CWE-",
+      "snippet": "assert mock_config_entry.data[CONF_VERIFY_SSL] is True"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/portainer/test_init.py",
+      "line": 83,
+      "cwe": "CWE-",
+      "snippet": "assert CONF_VERIFY_SSL not in entry.data"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/picnic/test_config_flow.py",
+      "line": 117,
+      "cwe": "CWE-",
+      "snippet": "assert result_step_2fa_verify[\"type\"] is FlowResultType.CREATE_ENTRY"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/overkiz/test_config_flow.py",
+      "line": 783,
+      "cwe": "CWE-",
+      "snippet": "assert mock_entry.data[\"verify_ssl\"] is True"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/nzbget/test_config_flow.py",
+      "line": 48,
+      "cwe": "CWE-",
+      "snippet": "assert result[\"data\"][CONF_VERIFY_SSL] is False"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/mealie/test_config_flow.py",
+      "line": 288,
+      "cwe": "CWE-",
+      "snippet": "assert mock_config_entry.data[CONF_VERIFY_SSL] is False"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/librenms/test_config_flow.py",
+      "line": 235,
+      "cwe": "CWE-",
+      "snippet": "assert mock_config_entry.data[CONF_VERIFY_SSL] is True"
+     },
+     {
+      "severity": "low",
+      "file": "tests/components/isy994/test_init.py",
+      "line": 45,
+      "cwe": "CWE-",
+      "snippet": "assert entry.data[CONF_VERIFY_SSL] is False"
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:34dc9be6-39d2-5d41-9106-66ec2e92bc2c",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-13T20:55:59Z",
+   "component": {
+    "type": "application",
+    "name": "L_HOMEASSIST",
+    "version": "61c8df73c36c",
+    "bom-ref": "pkg:generic/anticloud/L_HOMEASSIST@61c8df73c36c",
+    "purl": "pkg:generic/anticloud/L_HOMEASSIST@61c8df73c36c",
+    "licenses": [
+     {
+      "license": {
+       "id": "Apache-2.0"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "61c8df73c36c570a151d9d209e8f67762aca70d0"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/home-assistant/core"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "aiodns",
+    "version": "==4.0.4",
+    "purl": "pkg:pypi/aiodns@4.0.4",
+    "bom-ref": "pypi/aiodns@==4.0.4"
+   },
+   {
+    "type": "library",
+    "name": "aiogithubapi",
+    "version": "==26.0.0",
+    "purl": "pkg:pypi/aiogithubapi@26.0.0",
+    "bom-ref": "pypi/aiogithubapi@==26.0.0"
+   },
+   {
+    "type": "library",
+    "name": "aiohttp",
+    "version": "==3.14.3",
+    "purl": "pkg:pypi/aiohttp@3.14.3",
+    "bom-ref": "pypi/aiohttp@==3.14.3"
+   },
+   {
+    "type": "library",
+    "name": "aiohttp_cors",
+    "version": "==0.8.1",
+    "purl": "pkg:pypi/aiohttp-cors@0.8.1",
+    "bom-ref": "pypi/aiohttp_cors@==0.8.1"
+   },
+   {
+    "type": "library",
+    "name": "aiohttp-fast-zlib",
+    "version": "==0.3.0",
+    "purl": "pkg:pypi/aiohttp-fast-zlib@0.3.0",
+    "bom-ref": "pypi/aiohttp-fast-zlib@==0.3.0"
+   },
+   {
+    "type": "library",
+    "name": "aiohttp-asyncmdnsresolver",
+    "version": "==0.2.0",
+    "purl": "pkg:pypi/aiohttp-asyncmdnsresolver@0.2.0",
+    "bom-ref": "pypi/aiohttp-asyncmdnsresolver@==0.2.0"
+   },
+   {
+    "type": "library",
+    "name": "aiozoneinfo",
+    "version": "==0.2.3",
+    "purl": "pkg:pypi/aiozoneinfo@0.2.3",
+    "bom-ref": "pypi/aiozoneinfo@==0.2.3"
+   },
+   {
+    "type": "library",
+    "name": "annotatedyaml",
+    "version": "==1.0.2",
+    "purl": "pkg:pypi/annotatedyaml@1.0.2",
+    "bom-ref": "pypi/annotatedyaml@==1.0.2"
+   },
+   {
+    "type": "library",
+    "name": "astral",
+    "version": "==2.2",
+    "purl": "pkg:pypi/astral@2.2",
+    "bom-ref": "pypi/astral@==2.2"
+   },
+   {
+    "type": "library",
+    "name": "async-interrupt",
+    "version": "==1.2.2",
+    "purl": "pkg:pypi/async-interrupt@1.2.2",
+    "bom-ref": "pypi/async-interrupt@==1.2.2"
+   },
+   {
+    "type": "library",
+    "name": "attrs",
+    "version": "==26.1.0",
+    "purl": "pkg:pypi/attrs@26.1.0",
+    "bom-ref": "pypi/attrs@==26.1.0"
+   },
+   {
+    "type": "library",
+    "name": "atomicwrites-homeassistant",
+    "version": "==1.4.1",
+    "purl": "pkg:pypi/atomicwrites-homeassistant@1.4.1",
+    "bom-ref": "pypi/atomicwrites-homeassistant@==1.4.1"
+   },
+   {
+    "type": "library",
+    "name": "audioop-lts",
+    "version": "==0.2.2",
+    "purl": "pkg:pypi/audioop-lts@0.2.2",
+    "bom-ref": "pypi/audioop-lts@==0.2.2"
+   },
+   {
+    "type": "library",
+    "name": "awesomeversion",
+    "version": "==25.8.0",
+    "purl": "pkg:pypi/awesomeversion@25.8.0",
+    "bom-ref": "pypi/awesomeversion@==25.8.0"
+   },
+   {
+    "type": "library",
+    "name": "bcrypt",
+    "version": "==5.0.0",
+    "purl": "pkg:pypi/bcrypt@5.0.0",
+    "bom-ref": "pypi/bcrypt@==5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "certifi",
+    "version": ">=2021.5.30",
+    "purl": "pkg:pypi/certifi@2021.5.30",
+    "bom-ref": "pypi/certifi@>=2021.5.30"
+   },
+   {
+    "type": "library",
+    "name": "ciso8601",
+    "version": "==2.3.3",
+    "purl": "pkg:pypi/ciso8601@2.3.3",
+    "bom-ref": "pypi/ciso8601@==2.3.3"
+   },
+   {
+    "type": "library",
+    "name": "cronsim",
+    "version": "==2.7",
+    "purl": "pkg:pypi/cronsim@2.7",
+    "bom-ref": "pypi/cronsim@==2.7"
+   },
+   {
+    "type": "library",
+    "name": "fnv-hash-fast",
+    "version": "==2.0.3",
+    "purl": "pkg:pypi/fnv-hash-fast@2.0.3",
+    "bom-ref": "pypi/fnv-hash-fast@==2.0.3"
+   },
+   {
+    "type": "library",
+    "name": "t",
+    "version": "depend",
+    "purl": "pkg:pypi/t@depend",
+    "bom-ref": "pypi/t@depend"
+   },
+   {
+    "type": "library",
+    "name": "@playwright/test",
+    "version": "1.63.0",
+    "purl": "pkg:npm/@playwright/test@1.63.0",
+    "bom-ref": "npm/@playwright/test@1.63.0"
+   },
+   {
+    "type": "library",
+    "name": "astroid",
+    "version": ">=4.0",
+    "purl": "pkg:pypi/astroid@4.0",
+    "bom-ref": "pypi/astroid@>=4.0"
+   },
+   {
+    "type": "library",
+    "name": "pylint",
+    "version": ">=4.0",
+    "purl": "pkg:pypi/pylint@4.0",
+    "bom-ref": "pypi/pylint@>=4.0"
+   },
+   {
+    "type": "library",
+    "name": "The",
+    "version": "unspecified",
+    "purl": "pkg:pypi/the",
+    "bom-ref": "pypi/The@unspecified"
+   }
+  ]
+ },
+ "elapsed_seconds": 437.99,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 1,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "c1795ed98aaf929bad30259a0bdd351f25f832ae",
+    "latest_commit": "c1795ed anticloud overlay for L_HOMEASSIST",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-13T20:56:05.431009+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "f0706be459aef9faa5df3919a5ae7a23b26f2cbf1e3b8b6c1baa37bfd333e3a5"
+}

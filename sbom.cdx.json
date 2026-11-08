@@ -1,0 +1,207 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:34dc9be6-39d2-5d41-9106-66ec2e92bc2c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:55:59Z",
+    "component": {
+      "type": "application",
+      "name": "L_HOMEASSIST",
+      "version": "61c8df73c36c",
+      "bom-ref": "pkg:generic/anticloud/L_HOMEASSIST@61c8df73c36c",
+      "purl": "pkg:generic/anticloud/L_HOMEASSIST@61c8df73c36c",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "61c8df73c36c570a151d9d209e8f67762aca70d0"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/home-assistant/core"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "aiodns",
+      "version": "==4.0.4",
+      "purl": "pkg:pypi/aiodns@4.0.4",
+      "bom-ref": "pypi/aiodns@==4.0.4"
+    },
+    {
+      "type": "library",
+      "name": "aiogithubapi",
+      "version": "==26.0.0",
+      "purl": "pkg:pypi/aiogithubapi@26.0.0",
+      "bom-ref": "pypi/aiogithubapi@==26.0.0"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": "==3.14.3",
+      "purl": "pkg:pypi/aiohttp@3.14.3",
+      "bom-ref": "pypi/aiohttp@==3.14.3"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp_cors",
+      "version": "==0.8.1",
+      "purl": "pkg:pypi/aiohttp-cors@0.8.1",
+      "bom-ref": "pypi/aiohttp_cors@==0.8.1"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp-fast-zlib",
+      "version": "==0.3.0",
+      "purl": "pkg:pypi/aiohttp-fast-zlib@0.3.0",
+      "bom-ref": "pypi/aiohttp-fast-zlib@==0.3.0"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp-asyncmdnsresolver",
+      "version": "==0.2.0",
+      "purl": "pkg:pypi/aiohttp-asyncmdnsresolver@0.2.0",
+      "bom-ref": "pypi/aiohttp-asyncmdnsresolver@==0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "aiozoneinfo",
+      "version": "==0.2.3",
+      "purl": "pkg:pypi/aiozoneinfo@0.2.3",
+      "bom-ref": "pypi/aiozoneinfo@==0.2.3"
+    },
+    {
+      "type": "library",
+      "name": "annotatedyaml",
+      "version": "==1.0.2",
+      "purl": "pkg:pypi/annotatedyaml@1.0.2",
+      "bom-ref": "pypi/annotatedyaml@==1.0.2"
+    },
+    {
+      "type": "library",
+      "name": "astral",
+      "version": "==2.2",
+      "purl": "pkg:pypi/astral@2.2",
+      "bom-ref": "pypi/astral@==2.2"
+    },
+    {
+      "type": "library",
+      "name": "async-interrupt",
+      "version": "==1.2.2",
+      "purl": "pkg:pypi/async-interrupt@1.2.2",
+      "bom-ref": "pypi/async-interrupt@==1.2.2"
+    },
+    {
+      "type": "library",
+      "name": "attrs",
+      "version": "==26.1.0",
+      "purl": "pkg:pypi/attrs@26.1.0",
+      "bom-ref": "pypi/attrs@==26.1.0"
+    },
+    {
+      "type": "library",
+      "name": "atomicwrites-homeassistant",
+      "version": "==1.4.1",
+      "purl": "pkg:pypi/atomicwrites-homeassistant@1.4.1",
+      "bom-ref": "pypi/atomicwrites-homeassistant@==1.4.1"
+    },
+    {
+      "type": "library",
+      "name": "audioop-lts",
+      "version": "==0.2.2",
+      "purl": "pkg:pypi/audioop-lts@0.2.2",
+      "bom-ref": "pypi/audioop-lts@==0.2.2"
+    },
+    {
+      "type": "library",
+      "name": "awesomeversion",
+      "version": "==25.8.0",
+      "purl": "pkg:pypi/awesomeversion@25.8.0",
+      "bom-ref": "pypi/awesomeversion@==25.8.0"
+    },
+    {
+      "type": "library",
+      "name": "bcrypt",
+      "version": "==5.0.0",
+      "purl": "pkg:pypi/bcrypt@5.0.0",
+      "bom-ref": "pypi/bcrypt@==5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "certifi",
+      "version": ">=2021.5.30",
+      "purl": "pkg:pypi/certifi@2021.5.30",
+      "bom-ref": "pypi/certifi@>=2021.5.30"
+    },
+    {
+      "type": "library",
+      "name": "ciso8601",
+      "version": "==2.3.3",
+      "purl": "pkg:pypi/ciso8601@2.3.3",
+      "bom-ref": "pypi/ciso8601@==2.3.3"
+    },
+    {
+      "type": "library",
+      "name": "cronsim",
+      "version": "==2.7",
+      "purl": "pkg:pypi/cronsim@2.7",
+      "bom-ref": "pypi/cronsim@==2.7"
+    },
+    {
+      "type": "library",
+      "name": "fnv-hash-fast",
+      "version": "==2.0.3",
+      "purl": "pkg:pypi/fnv-hash-fast@2.0.3",
+      "bom-ref": "pypi/fnv-hash-fast@==2.0.3"
+    },
+    {
+      "type": "library",
+      "name": "t",
+      "version": "depend",
+      "purl": "pkg:pypi/t@depend",
+      "bom-ref": "pypi/t@depend"
+    },
+    {
+      "type": "library",
+      "name": "@playwright/test",
+      "version": "1.63.0",
+      "purl": "pkg:npm/@playwright/test@1.63.0",
+      "bom-ref": "npm/@playwright/test@1.63.0"
+    },
+    {
+      "type": "library",
+      "name": "astroid",
+      "version": ">=4.0",
+      "purl": "pkg:pypi/astroid@4.0",
+      "bom-ref": "pypi/astroid@>=4.0"
+    },
+    {
+      "type": "library",
+      "name": "pylint",
+      "version": ">=4.0",
+      "purl": "pkg:pypi/pylint@4.0",
+      "bom-ref": "pypi/pylint@>=4.0"
+    },
+    {
+      "type": "library",
+      "name": "The",
+      "version": "unspecified",
+      "purl": "pkg:pypi/the",
+      "bom-ref": "pypi/The@unspecified"
+    }
+  ]
+}

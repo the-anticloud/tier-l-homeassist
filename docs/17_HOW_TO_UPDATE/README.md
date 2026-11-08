@@ -1,0 +1,3 @@
+# 17_HOW_TO_UPDATE
+
+Documentation for L_HOMEASSIST - 17_HOW_TO_UPDATE

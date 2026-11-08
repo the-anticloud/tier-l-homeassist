@@ -1,0 +1,3 @@
+ Architecture — L_HOMEASSIST
+
+See upstream documentation at https://www.home-assistant.io/
